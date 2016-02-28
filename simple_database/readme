@@ -1,0 +1,14 @@
+Description of the problem:
+https://www.thumbtack.com/challenges/simple-database
+simple-database-challenge.pdf
+
+Run cpp solution:
+g++ -std=gnu++11 src_cpp/simple_database.cpp -o /tmp/simple_database
+/tmp/simple_database < tst/test_01.in
+rm /tmp/simple_database
+
+Run python solution:
+python3 src_py/SimpleDatabase.py < tst/test_01.in
+
+Run all tests:
+./run_tests.sh
